@@ -1,0 +1,5 @@
+@media Only screen and (min-width: 1114px) and (max-width: 1279px) {
+	.surfaceDuo {
+		aspect-ratio: 1/1.37 !important;
+	}
+}

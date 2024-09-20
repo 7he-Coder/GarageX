@@ -1,0 +1,213 @@
+import { ImQuotesLeft } from "react-icons/im";
+
+import hero0 from "../assets/Hero-Images/hero_0.jpg";
+import hero1 from "../assets/Hero-Images/hero_1.jpg";
+import hero2 from "../assets/Hero-Images/hero_2.jpg";
+import hero3 from "../assets/Hero-Images/hero_3.jpg";
+
+// import aboutimag from "../assets/About-Img-Vdo/about.jpg";
+// import aboutvdo from "../assets/About-Img-Vdo/aboutVideo.mp4";
+
+// import service7 from "../assets/Flat-Icons/icon_7.png";
+
+export const ABOUT_TEXT = `Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.`;
+
+export const ourMission = `At our car repair center, our mission is to deliver exceptional service with integrity and expertise. We are committed to ensuring your vehicle is repaired to the highest standards, prioritizing your safety and satisfaction. `;
+
+export const ourVision = `Our vision is to be the leading car repair center renowned for innovation, excellence, and customer satisfaction. We aim to set the standard in automotive care by continuously embracing cutting-edge technology and best practices.`;
+
+export const ourValue = `
+At our car repair center, our values are rooted in trust, quality, and transparency. We believe in delivering honest assessments and dependable repairs, ensuring that every service is performed with the highest level of craftsmanship.`;
+
+import service1 from "../assets/Flat-Icons/icon_1.png";
+import service2 from "../assets/Flat-Icons/icon_2.png";
+import service3 from "../assets/Flat-Icons/icon_3.png";
+import service4 from "../assets/Flat-Icons/icon_4.png";
+import service5 from "../assets/Flat-Icons/icon_5.png";
+import service6 from "../assets/Flat-Icons/icon_6.png";
+
+import profile1 from "../assets/Profile-Images/profile_1.jpg";
+import profile2 from "../assets/Profile-Images/profile_2.jpg";
+import profile3 from "../assets/Profile-Images/profile_3.jpg";
+
+import blog1 from "../assets/Blog-Images/blog_1.jpg";
+import blog2 from "../assets/Blog-Images/blog_2.jpg";
+import blog3 from "../assets/Blog-Images/blog_3.jpg";
+
+import project1 from "../assets/Project-Images/project_1.jpg";
+import project2 from "../assets/Project-Images/project_2.jpg";
+import project3 from "../assets/Project-Images/project_3.jpg";
+import project4 from "../assets/Project-Images/project_4.jpg";
+import project5 from "../assets/Project-Images/project_5.jpg";
+
+export const navItems = [
+	{ label: "HOME", href: "#" },
+	{ label: "ABOUT", href: "#" },
+	{ label: "SERVICES", href: "#" },
+	{ label: "PROJECT", href: "#" },
+	{ label: "BLOG", href: "#" },
+	{ label: "CONTACT", href: "#" },
+];
+
+export const HERO_IMAGES = [
+	{
+		heroimg: hero0,
+	},
+	{
+		heroimg: hero1,
+	},
+	{
+		heroimg: hero2,
+	},
+	{
+		heroimg: hero3,
+	},
+];
+
+export const CAR_SERVICES = [
+	{
+		icon: service1,
+		text: "Fuel Filter",
+		description:
+			"We ensure that your car runs smoothly by replacing worn-out parts and fluids, helping to prevent costly repairs down the road",
+		button: `READ MORE`,
+	},
+	{
+		icon: service2,
+		text: "Car Batteries",
+		description: `Car batteries provide the essential power needed to start your engine and support electrical systems.`,
+	},
+	{
+		icon: service3,
+		text: "Tow Truck",
+		description:
+			"A tow truck service provides prompt assistance by transporting disabled or stranded vehicles to repair shops or safe locations",
+		button: `READ MORE`,
+	},
+	{
+		icon: service4,
+		text: "Tyer Change",
+		description:
+			"A tire change service quickly replaces worn or damaged tires to ensure your vehicle's safety and optimal performance.",
+		button: `READ MORE`,
+	},
+	{
+		icon: service5,
+		text: "Engine Repair",
+		description:
+			"Engine repair service addresses mechanical issues to restore your vehicle's performance and reliability.",
+		button: `READ MORE`,
+	},
+	{
+		icon: service6,
+		text: "Car Maintenance",
+		description:
+			"Engine repair service addresses mechanical issues to restore your vehicle's performance and reliability.",
+		button: `READ MORE`,
+	},
+];
+
+export const testimonials = [
+	{
+		icon: <ImQuotesLeft />,
+		text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+		image: profile1,
+		user: "Shalu",
+		company: "Stellar Solutions",
+	},
+	{
+		icon: <ImQuotesLeft />,
+		text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+		image: profile2,
+		user: "Smriti Gautam",
+		company: "Stellar Solutions",
+	},
+	{
+		icon: <ImQuotesLeft />,
+		text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+		image: profile3,
+		user: "Abhay Gautam",
+		company: "Stellar Solutions",
+	},
+];
+
+export const blogs = [
+	{
+		blogImg: blog1,
+		blogProfile: {
+			image: profile1,
+			post: "Posted by Miana Dellvi",
+			time: "15 September 2024",
+		},
+		text: "Best wheel alignment & air conditioning",
+	},
+	{
+		blogImg: blog2,
+		blogProfile: {
+			image: profile2,
+			post: "Posted by Jesnil Hellsi",
+			time: "15 September 2024",
+		},
+		text: "Best wheel alignment & air conditioning",
+	},
+	{
+		blogImg: blog3,
+		blogProfile: {
+			image: profile3,
+			post: "Posted by Abhay Gautam",
+			time: "15 September 2024",
+		},
+		text: "Best wheel alignment & air conditioning",
+	},
+];
+
+export const pricingOptions = [
+	{
+		title: "first pms",
+		price: "$45.99",
+		text: "Our car service offers comprehensive maintenance for just $49.99.",
+		button: "get started",
+	},
+	{
+		title: "engine diagnostics",
+		price: "$45.99",
+		text: "Our expert engine diagnostics service ensures your car runs smoothly, pinpointing any issues with precision. Get this comprehensive service for just $99.98.",
+		button: "get started",
+	},
+	{
+		title: "tow truck",
+		price: "$45.99",
+		text: "Our expert tow truck service ensures your vehicle is transported safely and efficiently. Secure this reliable service for just $110.45",
+		button: "get started",
+	},
+	{
+		title: "car wash",
+		price: "$45.99",
+		text: "Give your car a fresh, polished look with our thorough wash service. All this for just $38.98.",
+		button: "get started",
+	},
+	{
+		title: "car wash",
+		price: "$45.99",
+		text: "Revitalize your car with our premium wash service, designed to leave your vehicle sparkling clean. Enjoy this top-quality service for just $40.98.",
+		button: "get started",
+	},
+];
+
+export const projects = [
+	{
+		image: project1,
+	},
+	{
+		image: project2,
+	},
+	{
+		image: project3,
+	},
+	{
+		image: project4,
+	},
+	{
+		image: project5,
+	},
+];
