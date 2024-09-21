@@ -82,7 +82,7 @@ const Pricing = () => {
 				<div className="lg:text-center mb-6">
 					<button
 						className={`px-6 py-3 hover:bg-opacity-90 rounded duration-300  ${
-							activeTimeline === "monthly" && "bg-blue-600 text-white"
+							activeTimeline === "monthly" && "bg-sky-500 text-white"
 						}`}
 						onClick={() => setActiveTimeline("monthly")}
 					>
@@ -97,7 +97,7 @@ const Pricing = () => {
 						YEARLY
 					</button>
 				</div>
-				<div className="grid grid-cols-12 gap-4 md:gap-6">{content}</div>
+				<div className="grid grid-cols-12 gap-4 md:gap-6 bg-black">{content}</div>
 			</div>
 		</section>
 	);

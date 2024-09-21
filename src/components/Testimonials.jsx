@@ -76,7 +76,7 @@ const Testimonials = () => {
 				<div className="flex justify-center md:mb-6">
 					<div className="sm:max-w-lg text-center">
 						<h3 className="text-md text-sky-500 tracking-tight font-semibold uppercase">
-							Testimonies
+							Testimoniales
 						</h3>
 						<h2 className="text-slate-950 text-3xl font-bold tracking-wide capitalize">
 							Happy Clients & Feedbacks

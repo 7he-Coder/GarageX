@@ -1,17 +1,32 @@
+import React, { useState } from "react";
 import video from "../assets/video3.mp4";
 import styles from "./About.module.css";
 import { aboutText, ourMission, ourVision, ourValue } from "../constants";
 
+
+
 const About = () => {
+	// const [activeOurs, setActiveOurs] = useState("mission");
+	// let content = null;
+		
+	// if(activeOurs === "mission"){
+	// return content = ourMission;
+	// }
+	// if(activeOurs === "vision"){
+	// return content = ourVision;
+	// }
+	// if(activeOurs === "ourValue"){
+	// return content = ourValue;
+	// }
+
 	return (
 		<>
-			<section id="about" className="bg-slate-50 lg:py-40 mt-3 mb-4 lg:mb-0 ">
+			<section id="about" className="bg-slate-50 lg:py-40 mt-3 mb-4 lg:mb-0">
 				<div className="max-w-7xl m-auto lg:px-0 px-6 grid grid-cols-1 lg:grid-cols-2">
 					<div>
 						<video
-							autoPlay
-							loop
 							muted
+							controls
 							className={`${styles.videoAbout} rounded-lg`}
 						>
 							<source src={video} type="video/mp4" />
@@ -44,24 +59,30 @@ const About = () => {
 										<ul className="flex justify-between items-center">
 											<li className="bg-sky-500 px-3 py-1 rounded-sm">
 												<a
-													href="#"
-													className="font-medium text-sm tracking-wider text-white"
+												href="#!"
+												className={`font-medium text-sm tracking-wider text-white`}
+												// className={`font-medium text-sm tracking-wider text-white ${activeOurs === mission && "bg-sky-600 text-white"}`}
+												// onClick={() => setActiveOurs("mission")}
 												>
 													Our Mission
 												</a>
 											</li>
 											<li className="hover:bg-sky-500 hover:text-white px-3 py-1 rounded-sm">
 												<a
-													href="#"
-													className="font-semibold text-sm tracking-wider"
+													href="#!"
+													className={`font-semibold text-sm tracking-wider`}
+													// className={`font-semibold text-sm tracking-wider ${activeOurs === vision && "bg-sky-600 text-white"}`}
+													// onClick={() => setActiveOurs("vision")}
 												>
 													Our Vision
 												</a>
 											</li>
 											<li className="hover:bg-sky-500 hover:text-white px-3 py-1 rounded-sm">
 												<a
-													href="#"
-													className="font-semibold text-sm tracking-wider"
+													href="#!"
+													className={`font-semibold text-sm tracking-wider`}
+													// className={`font-semibold text-sm tracking-wider ${activeOurs === value && "bg-sky-600 text-white"}`}
+													// onClick={() => setActiveOurs("value")}
 												>
 													Our Value
 												</a>
@@ -71,6 +92,7 @@ const About = () => {
 									<div>
 										<p className="text-slate-600 tracking-tighter text-pretty text-base">
 											{(ourMission, ourVision, ourValue)}
+											{/* {content} */}
 										</p>
 									</div>
 								</div>
