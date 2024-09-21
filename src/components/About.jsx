@@ -41,10 +41,7 @@ const About = () => {
                       <li className="bg-sky-500 px-3 py-1 rounded-sm">
                         <a
                           href="#!"
-                          className={`font-medium text-sm tracking-wider text-white ${
-                            activeOurs === mission && "bg-sky-600 text-white"
-                          }`}
-                          onClick={() => setActiveOurs("mission")}
+                          className="font-medium text-sm tracking-wider text-white"
                         >
                           Our Mission
                         </a>
@@ -52,7 +49,7 @@ const About = () => {
                       <li className="hover:bg-sky-500 hover:text-white px-3 py-1 rounded-sm">
                         <a
                           href="#!"
-                          className={`font-semibold text-sm tracking-wider`}
+                          className="font-semibold text-sm tracking-wider"
                         >
                           Our Vision
                         </a>
@@ -60,7 +57,7 @@ const About = () => {
                       <li className="hover:bg-sky-500 hover:text-white px-3 py-1 rounded-sm">
                         <a
                           href="#!"
-                          className={`font-semibold text-sm tracking-wider`}
+                          className="font-semibold text-sm tracking-wider"
                         >
                           Our Value
                         </a>
